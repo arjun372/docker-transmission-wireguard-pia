@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM lscr.io/linuxserver/transmission:latest
 
 RUN apk add --no-cache \
     bash \
